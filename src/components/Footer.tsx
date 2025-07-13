@@ -40,7 +40,7 @@ const Footer = () => {
                 </a>
               </Button>
               <Button variant="ghost" size="sm" asChild>
-                <a href="mailto:aryanshukla9653@gmail.com">
+                <a href="mailto:aryanshukla9004@gmail.com">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
@@ -79,7 +79,7 @@ const Footer = () => {
           >
             <h4 className="text-lg font-semibold">Get in Touch</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>📧 aryanshukla9653@gmail.com</p>
+              <p>📧 aryanshukla9004@gmail.com</p>
               <p>🌟 Based in India</p>
               <p>💼 Available for opportunities</p>
             </div>
