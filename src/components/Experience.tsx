@@ -6,69 +6,41 @@ import { Briefcase, Award, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Full Stack Developer",
-      company: "Tech Startup",
+      title: "Documentation Intern",
+      company: "TCET-OpenSource",
       location: "Remote",
-      period: "2023 - Present",
-      type: "Full-time",
-      description: [
-        "Developed and maintained web applications using React, Node.js, and MongoDB",
-        "Implemented RESTful APIs and integrated third-party services",
-        "Collaborated with cross-functional teams using Agile methodologies",
-        "Optimized application performance resulting in 40% faster load times"
-      ],
-      technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker"]
-    },
-    {
-      title: "Blockchain Developer Intern",
-      company: "Fintech Company",
-      location: "Mumbai, India",
-      period: "2022 - 2023",
+      period: "June 2024 - Feb 2025",
       type: "Internship",
       description: [
-        "Developed smart contracts using Solidity for DeFi applications",
-        "Built web3 integrations using Web3.js and ethers.js",
-        "Contributed to the development of a decentralized lending platform",
-        "Participated in code reviews and security audits"
+        "Implemented GitHub and Git Branching Strategies to optimize PR merging for L4 documentation engineering, enhancing workflow efficiency",
+        "Designed and managed the TCET TNP website documentation, ensuring accessibility and ease of use for stakeholders",
+        "Developed the Fill My Cycle documentation page, utilized by 1,000+ students annually for streamlined access to information",
+        "Collaborated using Git for version control, task assignments, and project organization, improving team productivity and code quality"
       ],
-      technologies: ["Solidity", "Web3.js", "Ethereum", "React", "IPFS"]
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency",
-      location: "Mumbai, India",
-      period: "2022",
-      type: "Part-time",
-      description: [
-        "Created responsive web interfaces using React and Tailwind CSS",
-        "Collaborated with designers to implement pixel-perfect UI/UX",
-        "Implemented state management using Redux and Context API",
-        "Ensured cross-browser compatibility and mobile responsiveness"
-      ],
-      technologies: ["React", "JavaScript", "Tailwind CSS", "Redux"]
+      technologies: ["Git", "GitHub", "Documentation", "Technical Writing", "Project Management"]
     }
   ];
 
   const achievements = [
     {
-      title: "Blockchain Hackathon Winner",
+      title: "Hackniche Runner Up",
       event: "DJ Sanghvi College of Engineering",
-      date: "2023",
-      description: "First place in blockchain domain for developing a decentralized voting system",
+      date: "2024",
+      description: "Secured 2nd position in blockchain domain hackathon",
       icon: Award
     },
     {
-      title: "Open Source Contributor",
-      event: "Various Projects",
-      date: "2022-Present",
-      description: "Active contributor to open source projects on GitHub",
+      title: "HackInfinity Top 5",
+      event: "Rajiv Gandhi College of Engineering",
+      date: "2024",
+      description: "Achieved top 5 position in hackathon competition",
       icon: Award
     },
     {
-      title: "Tech Community Speaker",
-      event: "Local Meetups",
-      date: "2023",
-      description: "Delivered talks on blockchain technology and web development",
+      title: "GDSC Marketing Lead",
+      event: "Google Developer Students Club - TCET",
+      date: "Current",
+      description: "Leading marketing initiatives and community engagement",
       icon: Award
     }
   ];
@@ -194,9 +166,9 @@ const Experience = () => {
                 <h4 className="text-lg font-semibold mb-4">Education</h4>
                 <div className="space-y-3">
                   <div>
-                    <h5 className="font-medium">Bachelor of Engineering in Computer Science</h5>
-                    <p className="text-muted-foreground">DJ Sanghvi College of Engineering</p>
-                    <p className="text-sm text-muted-foreground">2020-2024</p>
+                    <h5 className="font-medium">B.E in Computer Science and Engineering (CyberSecurity)</h5>
+                    <p className="text-muted-foreground">Mumbai University - Thakur College of Engineering and Technology</p>
+                    <p className="text-sm text-muted-foreground">2022-2026 • CGPA: 9.28 (Till 5th Semester)</p>
                   </div>
                 </div>
               </CardContent>
@@ -208,21 +180,27 @@ const Experience = () => {
                 <h4 className="text-lg font-semibold mb-4">Core Strengths</h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
+                    <span>Blockchain Development</span>
+                    <div className="w-24 h-2 bg-secondary rounded-full overflow-hidden">
+                      <div className="w-5/6 h-full bg-primary rounded-full" />
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center">
                     <span>Full Stack Development</span>
                     <div className="w-24 h-2 bg-secondary rounded-full overflow-hidden">
                       <div className="w-5/6 h-full bg-primary rounded-full" />
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span>Blockchain Development</span>
+                    <span>Cybersecurity</span>
                     <div className="w-24 h-2 bg-secondary rounded-full overflow-hidden">
-                      <div className="w-4/5 h-full bg-primary rounded-full" />
+                      <div className="w-3/4 h-full bg-primary rounded-full" />
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span>Problem Solving</span>
+                    <span>AI Integration</span>
                     <div className="w-24 h-2 bg-secondary rounded-full overflow-hidden">
-                      <div className="w-5/6 h-full bg-primary rounded-full" />
+                      <div className="w-4/5 h-full bg-primary rounded-full" />
                     </div>
                   </div>
                 </div>

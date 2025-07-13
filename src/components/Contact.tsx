@@ -26,8 +26,14 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Location",
-      value: "India",
+      value: "Mumbai, India",
       href: null
+    },
+    {
+      icon: Phone,
+      label: "Phone",
+      value: "+91 9653365961",
+      href: "tel:+919653365961"
     }
   ];
 

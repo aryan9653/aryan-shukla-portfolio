@@ -5,29 +5,36 @@ import { Code, Brain, Trophy, Heart } from "lucide-react";
 
 const About = () => {
   const skills = [
-    "JavaScript", "TypeScript", "React", "Node.js", "Python", "Java",
-    "Blockchain", "Solidity", "Web3", "MongoDB", "PostgreSQL", "AWS",
-    "Docker", "Kubernetes", "Git", "Linux", "REST APIs", "GraphQL"
+    "Solidity", "TypeScript", "Next.js", "React.js", "Node.js", "Python", "Java",
+    "Blockchain", "Ethereum", "Web3.js", "MongoDB", "Firebase", "SQL",
+    "Git", "GitHub", "VS Code", "Cursor", "Wireshark", "Nmap", "Ethical Hacking",
+    "Gemini AI", "IPFS", "QuickNode", "Hardhat", "MetaMask", "Canva"
   ];
 
   const achievements = [
     {
       icon: Trophy,
-      title: "Blockchain Hackathon Winner",
-      description: "Won first place at DJ Sanghvi College of Engineering hackathon in blockchain domain",
-      year: "2023"
+      title: "Hackniche Runner Up - DJ Sanghvi College",
+      description: "Secured 2nd position in blockchain domain hackathon at DJ Sanghvi College of Engineering",
+      year: "2024"
+    },
+    {
+      icon: Trophy,
+      title: "HackInfinity Top 5 - RGCOE",
+      description: "Achieved top 5 position at HackInfinity hackathon at Rajiv Gandhi College of Engineering",
+      year: "2024"
     },
     {
       icon: Code,
-      title: "Full Stack Developer",
-      description: "Building scalable web applications with modern technologies",
-      year: "2022-Present"
+      title: "GDSC Marketing Lead - TCET",
+      description: "Leading marketing initiatives at Google Developer Students Club at TCET",
+      year: "Current"
     },
     {
       icon: Brain,
-      title: "Problem Solver",
-      description: "Passionate about solving complex problems with elegant solutions",
-      year: "Always"
+      title: "Documentation Engineer",
+      description: "Enhanced workflow efficiency for 1,000+ students at TCET-OpenSource",
+      year: "2024-2025"
     }
   ];
 
@@ -66,16 +73,19 @@ const About = () => {
                 </div>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    My journey in technology began with curiosity about how things work under the hood. 
-                    This led me to explore various domains, from web development to blockchain technology.
+                    I'm a Computer Science Engineering student at Mumbai University specializing in Cybersecurity, 
+                    maintaining a strong CGPA of 9.28. Currently serving as Marketing Lead at Google Developer Students Club - TCET, 
+                    I'm passionate about blockchain technology, AI integration, and full-stack development.
                   </p>
                   <p>
-                    I believe in continuous learning and staying updated with the latest technologies. 
-                    My experience spans across full-stack development, blockchain solutions, and cloud technologies.
+                    As a Documentation Intern at TCET-OpenSource, I've enhanced workflow efficiency through GitHub strategies 
+                    and developed documentation platforms used by 1,000+ students annually. My projects span from decentralized 
+                    file storage systems to AI-powered legal assistants, showcasing my versatility in emerging technologies.
                   </p>
                   <p>
-                    When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
-                    or sharing knowledge with the developer community.
+                    I'm a hackathon enthusiast with notable achievements including Runner Up at DJ Sanghvi College's Hackniche 
+                    and Top 5 position at HackInfinity. I believe in continuous learning, open-source contribution, and 
+                    democratizing access to technology through innovative solutions.
                   </p>
                 </div>
               </CardContent>

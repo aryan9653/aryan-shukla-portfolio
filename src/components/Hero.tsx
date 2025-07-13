@@ -78,7 +78,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-2xl md:text-3xl font-light text-foreground/80"
           >
-            Full Stack Developer & Blockchain Enthusiast
+            Computer Science Student & Blockchain Developer
           </motion.h2>
 
           {/* Description */}
@@ -88,8 +88,8 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed"
           >
-            Passionate about creating innovative solutions with cutting-edge technologies. 
-            Winner of blockchain hackathon at DJ Sanghvi College of Engineering.
+            Computer Science Engineering student at Mumbai University with 9.28 CGPA, specializing in Cybersecurity. 
+            Marketing Lead at GDSC-TCET, passionate about blockchain development and AI integration.
           </motion.p>
 
           {/* Social Links */}

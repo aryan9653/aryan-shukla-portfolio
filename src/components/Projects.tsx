@@ -5,73 +5,67 @@ import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink, Star, GitFork } from "lucide-react";
 
 const Projects = () => {
-  // Sample projects - replace with your actual GitHub projects
+  // Real projects from resume
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-      githubUrl: "https://github.com/aryan9653/ecommerce-platform",
-      liveUrl: "https://ecommerce-demo.netlify.app",
-      stars: 15,
-      forks: 8
+      title: "Blockchain File Storage",
+      description: "Implemented a decentralized and secure storage system using Ethereum and IPFS, eliminating centralized servers to ensure data integrity, immutability, and transparency. Developed smart contract-based file manager in Solidity.",
+      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500&h=300&fit=crop",
+      technologies: ["Solidity", "Ethereum", "QuickNode", "Next.js", "IPFS", "Web3.js"],
+      githubUrl: "https://github.com/aryan9653/blockchain-file-storage",
+      liveUrl: "#",
+      stars: 12,
+      forks: 5,
+      date: "October 2024"
     },
     {
       id: 2,
-      title: "Blockchain Voting System",
-      description: "Decentralized voting application using Ethereum smart contracts. Winner of DJ Sanghvi College blockchain hackathon.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500&h=300&fit=crop",
-      technologies: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
-      githubUrl: "https://github.com/aryan9653/blockchain-voting",
-      liveUrl: "https://blockchain-voting-demo.netlify.app",
-      stars: 32,
-      forks: 12
+      title: "Crowdfunding Platform",
+      description: "Built a decentralized crowdfunding application on Ethereum enabling trustless fundraising, automatic refunds, and secure fund management through Solidity smart contracts with immutability and auditability.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+      technologies: ["Solidity", "Ethereum", "Hardhat", "Next.js", "IPFS", "MetaMask"],
+      githubUrl: "https://github.com/aryan9653/crowdfunding-platform",
+      liveUrl: "#",
+      stars: 8,
+      forks: 3,
+      date: "January 2025"
     },
     {
       id: 3,
-      title: "AI Chat Application",
-      description: "Real-time chat application with AI bot integration. Features include message encryption, file sharing, and smart replies.",
-      image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=500&h=300&fit=crop",
-      technologies: ["React", "Socket.io", "Python", "TensorFlow", "Redis"],
-      githubUrl: "https://github.com/aryan9653/ai-chat-app",
-      liveUrl: "https://ai-chat-demo.herokuapp.com",
-      stars: 24,
-      forks: 7
+      title: "Justifi.ai",
+      description: "Developed an AI-powered legal assistant that helps users understand and counter IPC (Indian Penal Code) charges by explaining relevant laws and suggesting potential defenses using Gemini AI.",
+      image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=500&h=300&fit=crop",
+      technologies: ["Next.js", "Node.js", "TypeScript", "Gemini AI", "Legal Tech"],
+      githubUrl: "https://github.com/aryan9653/justifi-ai",
+      liveUrl: "#",
+      stars: 15,
+      forks: 7,
+      date: "March 2025"
     },
     {
       id: 4,
-      title: "Task Management Dashboard",
-      description: "A comprehensive project management tool with team collaboration features, time tracking, and progress analytics.",
+      title: "TCET TNP Documentation",
+      description: "Designed and managed the TCET TNP website documentation, ensuring accessibility and ease of use for stakeholders. Part of my work as Documentation Intern at TCET-OpenSource.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      technologies: ["Vue.js", "Express", "PostgreSQL", "Chart.js", "WebSockets"],
-      githubUrl: "https://github.com/aryan9653/task-manager",
-      liveUrl: "https://task-manager-demo.vercel.app",
-      stars: 18,
-      forks: 5
+      technologies: ["Documentation", "Git", "GitHub", "Technical Writing", "Project Management"],
+      githubUrl: "https://github.com/tcet-opensource",
+      liveUrl: "#",
+      stars: 25,
+      forks: 12,
+      date: "2024"
     },
     {
       id: 5,
-      title: "Cryptocurrency Tracker",
-      description: "Real-time cryptocurrency price tracking with portfolio management and alerts. Integrated with multiple exchange APIs.",
-      image: "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=500&h=300&fit=crop",
-      technologies: ["React Native", "Redux", "CoinGecko API", "Firebase"],
-      githubUrl: "https://github.com/aryan9653/crypto-tracker",
-      liveUrl: "https://crypto-tracker-demo.netlify.app",
-      stars: 27,
-      forks: 11
-    },
-    {
-      id: 6,
-      title: "Weather Prediction ML Model",
-      description: "Machine learning model for weather prediction using historical data and multiple algorithms for improved accuracy.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
-      technologies: ["Python", "TensorFlow", "Pandas", "Flask", "Docker"],
-      githubUrl: "https://github.com/aryan9653/weather-prediction",
-      liveUrl: "https://weather-ml-demo.herokuapp.com",
-      stars: 21,
-      forks: 9
+      title: "Fill My Cycle Documentation",
+      description: "Developed the Fill My Cycle documentation page, utilized by 1,000+ students annually for streamlined access to information. Enhanced workflow efficiency through GitHub strategies.",
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop",
+      technologies: ["Documentation", "GitHub", "Git Branching", "Technical Writing", "Student Portal"],
+      githubUrl: "https://github.com/tcet-opensource/fill-my-cycle",
+      liveUrl: "#",
+      stars: 18,
+      forks: 9,
+      date: "2024"
     }
   ];
 
@@ -89,7 +83,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Here are some of my recent projects that showcase my skills and passion for development.
+            A showcase of my work in blockchain development, AI integration, and documentation engineering.
           </p>
         </motion.div>
 
@@ -113,6 +107,13 @@ const Projects = () => {
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
                   
+                  {/* Date Badge */}
+                  <div className="absolute top-4 left-4">
+                    <Badge variant="secondary" className="bg-black/50 text-white border-none">
+                      {project.date}
+                    </Badge>
+                  </div>
+                  
                   {/* GitHub Stats */}
                   <div className="absolute top-4 right-4 flex gap-2">
                     <div className="flex items-center gap-1 bg-black/50 rounded-full px-2 py-1 text-xs text-white">
@@ -133,7 +134,7 @@ const Projects = () => {
                 </CardHeader>
 
                 <CardContent className="pt-0 flex flex-col flex-1">
-                  <p className="text-muted-foreground mb-4 flex-1">
+                  <p className="text-muted-foreground mb-4 flex-1 text-sm leading-relaxed">
                     {project.description}
                   </p>
 
@@ -159,16 +160,18 @@ const Projects = () => {
                         Code
                       </a>
                     </Button>
-                    <Button
-                      size="sm"
-                      className="flex-1 group/btn bg-primary hover:bg-primary/90"
-                      asChild
-                    >
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="mr-2 h-4 w-4 group-hover/btn:rotate-12 transition-transform" />
-                        Live Demo
-                      </a>
-                    </Button>
+                    {project.liveUrl !== "#" && (
+                      <Button
+                        size="sm"
+                        className="flex-1 group/btn bg-primary hover:bg-primary/90"
+                        asChild
+                      >
+                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="mr-2 h-4 w-4 group-hover/btn:rotate-12 transition-transform" />
+                          Live Demo
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>
