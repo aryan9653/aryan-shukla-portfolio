@@ -106,9 +106,7 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm">
             © {currentYear} Aryan Shukla. All rights reserved.
           </p>
-          <p className="text-muted-foreground text-sm flex items-center gap-1">
-            Made with <Heart className="h-4 w-4 text-red-500" /> using React & Framer Motion
-          </p>
+         
         </motion.div>
       </div>
     </footer>
