@@ -165,7 +165,7 @@ const About = () => {
                   Always open to discussing new opportunities and collaborations.
                 </p>
                 <div className="space-y-2 text-sm">
-                  <p>📧 aryanshukla9653@gmail.com</p>
+                  <p>📧 aryanshukla9004@gmail.com</p>
                   <p>🌟 Based in India</p>
                   <p>💼 Open to freelance & full-time opportunities</p>
                 </div>
