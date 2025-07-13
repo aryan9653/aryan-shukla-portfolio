@@ -88,7 +88,7 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed"
           >
-            Computer Science Engineering student at Mumbai University with 9.28 CGPA, specializing in Cybersecurity. 
+            Computer Science Engineering student studying at Thakur College Of Engineering And Technology, specializing in Cybersecurity. 
             Marketing Lead at GDSC-TCET, passionate about blockchain development and AI integration.
           </motion.p>
 
